@@ -38,7 +38,7 @@ The data is organized into a time series format, enabling the visualization of a
 ### 4.1 Introduction to Realized Volatility
 Realized volatility is computed using past index values with the formula:
 
-\[RV = \sum_{i=1}^{n} (X_{t_i+1} - X_{t_i})^2\]
+$$\mathit{RV} = \sum_{i=1}^{n} (X_{t_i+1} - X_{t_i})^2$$
 
 ### 4.2 Estimation Method: Rolling Window Approach
 Realized volatility is computed using a rolling window approach with various time intervals.
@@ -60,7 +60,7 @@ Long-range volatility during the same month is compared to intraday volatility t
 Microstructure noise, resulting from the ask & bid mechanism, interferes with prices and modifies predictions made by regular models.
 
 ### 6.2 Methodology for Estimating Noise Size
-The estimator \(\eta\) of microstructure noise size is computed using a large sample size.
+The estimator $\eta$ of microstructure noise size is computed using a large sample size.
 
 ### 6.3 Computation of the Estimator
 Daily microstructure noise is illustrated based on computations from January 1, 2022, to today.
